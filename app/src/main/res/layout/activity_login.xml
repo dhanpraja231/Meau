@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <RadioGroup
+
+        android:id="@+id/radioGroup"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bookmark_arrow"
+            android:button="@null"
+            android:paddingEnd="120dp"
+            android:text="Student"
+            android:textAlignment="textEnd" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bookmark_arrow"
+            android:button="@null"
+            android:paddingEnd="122dp"
+            android:text="Mentor"
+            android:textAlignment="textEnd" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bookmark_arrow"
+            android:button="@null"
+            android:paddingEnd="125dp"
+            android:text="Admin"
+            android:textAlignment="textEnd" />
+
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:background="@drawable/rounded_button"
+        android:drawableLeft="@drawable/google_icon_foreground"
+        android:elevation="4dp"
+        android:paddingStart="2dp"
+        android:paddingEnd="70dp"
+        android:text="Sign in with Google"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:background="@drawable/rounded_button"
+        android:drawableLeft="@drawable/linkedin_icon_foreground"
+        android:elevation="4dp"
+        android:paddingStart="2dp"
+        android:paddingEnd="70dp"
+        android:text="Sign in with LinkedIn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
